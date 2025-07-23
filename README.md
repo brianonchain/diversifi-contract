@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# DiversiFi Contract & Deployment Files
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+Included is the DiversiFi contract, which is a simple Solidity contract that allows deposit and withdrawal of USDC. A mapping is created between the user address and contract balance. Events are emitted and index on The Graph, which powers the "History" UI on the DApp.
