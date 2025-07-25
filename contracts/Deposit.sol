@@ -1,7 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
-
-// imports
 import {IERC20Complete} from "./interfaces/IERC20Complete.sol";
 
 contract Deposit {
@@ -71,4 +69,7 @@ contract Deposit {
     function getBalance(address user) public view returns (uint256) {
         return balances[user];
     }
+
+
+
 }

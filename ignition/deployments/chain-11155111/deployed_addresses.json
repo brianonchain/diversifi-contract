@@ -1,3 +1,4 @@
 {
-  "DepositModule#Deposit": "0xd8d86fe48323Cd4A630cef4f7825fCB22dEF94E9"
+  "DepositModule#Deposit": "0xd8d86fe48323Cd4A630cef4f7825fCB22dEF94E9",
+  "PaymentModule#Payment": "0x634a3A7cA779BBaF8287E9CbEb252676f0e11Ae1"
 }
